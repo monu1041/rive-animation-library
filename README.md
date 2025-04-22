@@ -13,3 +13,10 @@ implementation project(":rive-animation-library")
         app:riveRawResId="@raw/ftm_monster"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+4.(Optional) try to add some code to switch to another animation
+import com.yourpackage.rivelibrary.CustomRiveView;
+...
+private CustomRiveView customRiveView;
+...
+customRiveView = findViewById(R.id.riveAnimationView);
+customRiveView.playAnimation("Happy   ");
