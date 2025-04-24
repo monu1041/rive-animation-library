@@ -6,11 +6,11 @@ Add the following line to your `settings.gradle`:
 
 
 include ':rive-animation-library'
-Step 2: Add the Module as a Dependency
+## Step 2: Add the Module as a Dependency
 In your app/build.gradle file, include the module:
 
 implementation project(":rive-animation-library")
-Step 3: Add the Animation in XML
+## Step 3: Add the Animation in XML
 Insert the following XML where you want to use the animation:
 
 
@@ -23,7 +23,7 @@ Insert the following XML where you want to use the animation:
     app:layout_constraintStart_toStartOf="parent" />
 Replace <com.yourpackage> with your actual package name.
 
-Step 4 (Optional): Switch to Another Animation Programmatically
+## Step 4 (Optional): Switch to Another Animation Programmatically
 In your Java code, use the following snippet to switch animations:
 
 
